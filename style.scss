@@ -1,0 +1,108 @@
+
+// Variables
+$primary-color:#1345AB ;
+$secondary-color: #f8f9fa;
+$third-color:#ebeced;
+$fourth-color:#3498db;
+$gradientcolor1:#00b7ff;
+$gradientcolor2:#020024;
+//mixin
+
+
+
+// Styles
+body {
+    font-family: Arial, sans-serif;
+   background-color: ;
+}
+
+h1{
+    color: $primary-color;
+}
+
+.resource-section {
+    display: flex;
+    gap:15px;
+    padding: 25px;
+    margin: 10px;
+    background-color:$secondary-color;
+    width: 100%;
+    justify-content: center;
+  
+  }
+  
+  .resource{
+    
+    box-shadow: 5px 5px 5px 5px $third-color;
+    width:25%;
+    max-height:520px;
+    color: #272d33;
+    text-align: center;
+    border-radius: 10px;
+    padding:40px;
+    margin: 10px;
+    background-color: white;
+    
+  }
+  
+  .budget-list{
+    background-color: $third-color;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list-container{
+    background-color: $secondary-color;
+    height: 375px;
+    width:30%;
+    text-align:center;
+    display: block;
+    border-radius: 5px;
+    
+
+  }
+
+  .button-continer{
+    display: flex;
+     justify-content: center;
+     gap:15px;
+  }
+
+  .budget-buttons{
+    background-color: black;
+    color:white;
+    padding:10px;
+    width:5rem;
+    border: #272d33;
+    border-radius: 5px;
+    margin:10px;
+  }
+  .budget-buttons:hover{
+    transform: scale(1.1);
+    color:green;
+  }
+
+  .input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+  }
+
+  .list-item{
+    width:99%;
+    border-top: 3px solid black;
+    margin:5px;
+   
+  }
+
+  input{
+    width:30%;
+  }
+
+  //mixin 
+  @mixin gradient {
+    
+}

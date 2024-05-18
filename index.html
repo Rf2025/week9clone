@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <div class="resource-section">
+        <div class="resource">
+        <h1>Starting budget</h1>
+        <h2 id="inital-budget"></h2>
+     
+        </div>
+      <div class="resource">
+        <h1>Current Expenses</h1>
+        <h2 id="expenses-heading"></h2>
+      </div>
+    
+        <div class="resource">
+         <h1>Remaining Budget</h1>
+         <h2 id="remaining-budget"></h2>
+        </div>
+     
+      </div>
+      <div class="budget-list">
+       <div class="list-container">
+        <h2>Input Expenses</h2>
+       <div class="input-container">
+        <label for="set-budget">Set Budget</label>
+        
+        <input id="set-budget" type="number" >
+        <button class="budget-buttons" id="starting-budget">Set budget</button>
+        <label for="description" >Description</label>
+        <input id="description" type="text">
+        <label for="price">Price</label>
+        <input id="price" type="number">
+       </div>
+       <div class="list-item">
+
+       </div>
+       </div>
+      </div>
+      <div class="button-continer">
+        <button class="budget-buttons" id="add-btn">Add</button>
+        <button  class="budget-buttons" id="reset-btn">Reset</button>
+       </div>
+    <script src="script.js"></script>
+</body>
+</html>
