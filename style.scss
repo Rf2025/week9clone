@@ -8,12 +8,16 @@ $gradientcolor1:#00b7ff;
 $gradientcolor2:#020024;
 //mixin
 
+@mixin gradient($color1, $color2) {
+  background: linear-gradient(to right, $color1, $color2);
+}
 
 
 // Styles
+
 body {
     font-family: Arial, sans-serif;
-   background-color: ;
+    @include gradient($gradientcolor1, $gradientcolor2);
 }
 
 h1{
