@@ -57,6 +57,7 @@ resetAll.addEventListener('click',function(){
     itemDescription.value = '';
     descriptionHeading.innerHTML = ''
     priceHeading.innerHTML = ''
+    window.location.reload();
 
 })
 
